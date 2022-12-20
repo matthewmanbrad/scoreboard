@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    margin: 20px auto;
+}
+
+.teamName {
+    color: #EEEEEE;
+    font-size: 40px;
+    margin: 68px auto 0;
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
+
+.score {
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    padding: 15px 100px 15px 50px;
+    margin-top: 20px;
+    color: #F94F6D;
+    background: black;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    width: 20px;
+}
+
+.scoreButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0;
+    height: 45px;
+}
+
+.scoreButton {
+    width: 53px;
+    font-family: 'Cursed Timer ULiL';
+    border: 2px solid #E5E5E5;
+    background: #1B244A;
+    color: #E5E5E5;
+    border-radius: 8px;
+}
+
+.newGameButtonContainer {
+    display: flex;
+}
+
+.newGameButton {
+    width: 150px;
+    margin: 30px auto 0;
+    background: #059669;
+    border: 3px solid #E5E5E5;
+    padding: 5px 3px;
+    border-radius: 8px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: bold;
+    color: #E5E5E5;
+    text-shadow: 0 0 3px black;
+}
